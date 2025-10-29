@@ -19,17 +19,22 @@
      </div>
    </header>
 
-<main>
+
    <div id="texte1">
      <h1>Films et séries en illimité, et bien plus </h1>
-    <div class="taillepolice"><p>À partir de 7,99 €. Annulable à tout moment.</p>
+    <div class="taillepolice">
+      <p>À partir de 7,99 €. Annulable à tout moment.</p>
      <h3>Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</h3>
- <input type="email" name="email" placeholder="Adresse e-mail"/>
- <button type="button"  class="bouton-inscription1">Commencer</button>
-    </div>
-   </div>
+ <form>
+ <label for="email">Adresse E-mail</label>
+     <input id="email" type="email" name="email" placeholder="Adresse e-mail" required/>
+     <button type="submit"  class="bouton-inscription1">Commencer</button>
+ </form>  
    </div>
 
+   </div>
+   </div>
+<main>
    <div>
       <h4>Le Netflix que vous aimez pour juste 7,99 €.</h4>
       <p>Profitez de notre offre avec pub, la plus économique.</p>
@@ -108,8 +113,11 @@ Les profils Jeunesse comportent des fonctionnalités de contrôle parental avec 
 <div>
 <h3>Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre abonnement.</h3>
 
+<form>
+ <label for="email">Adresse E-mail</label>
 <input type="email" name="email" placeholder="Adresse e-mail"/>
 <button type="button"  class="bouton-inscription">Commencer</button>
+</form>
 
 </div>
 
@@ -189,7 +197,7 @@ Les profils Jeunesse comportent des fonctionnalités de contrôle parental avec 
 </section>
  
 <div>
-     <select id="language">
+     <select id="language-footer">
     <option value="fr">Français</option>
     <option value="en">English</option>
      </select>
